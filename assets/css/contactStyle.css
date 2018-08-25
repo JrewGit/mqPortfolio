@@ -31,3 +31,9 @@ textarea {
     margin-top: 90px;
     border-top: 10px solid #4aaaa5;
 }
+
+@media screen and (max-width: 1135px) {
+    .contactBox {
+        width: auto;
+    }
+}
