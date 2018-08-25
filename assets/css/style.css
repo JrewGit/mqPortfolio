@@ -74,8 +74,8 @@ img {
 
 .indexFooter {
     background-color: #666666;
-    padding: 20px;
-    margin: 240px auto;
+    padding: 25px;
+    margin: 240px auto 0 auto;
     border-top: 10px solid #4aaaa5;
 }
 
@@ -85,7 +85,65 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
+
+    .links {
+        padding: 30px;
+        float: right;
+    }
     
+    .aboutPage {
+        width: auto;
+        padding-bottom: 300px;
+    }
+
+    img {
+        width: auto;
+        padding-left: 10%;
+    }
+
+    .bio p {
+        clear: left;
+        padding: 10px;
+        line-height: 30px;
+        margin-left: 0;
+        padding-top: 10%;
+    }
+
+    .indexFooter {
+        margin-top: 15%;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1135px) {
+
+    .links {
+        padding: 30px;
+        float: right;
+    }
+    
+    .aboutPage {
+        width: auto;
+        padding-bottom: 300px;
+    }
+
+    img {
+        width: auto;
+        padding: 0 25%;
+    }
+
+    .bio p {
+        clear: left;
+        padding: 10px;
+        line-height: 30px;
+        margin-left: 0;
+        padding-top: 10%;
+    }
+
+    .indexFooter {
+        margin-top: 15%;
+        margin-bottom: 0;
+    }
 }
 
 
