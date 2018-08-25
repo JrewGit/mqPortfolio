@@ -93,3 +93,65 @@ img {
 .box5 {
     position: relative;
 }
+
+@media screen and (max-width: 480px) {
+    /* .portfolioSection {
+        width: auto;
+        height: 1050px;
+    }
+
+    img {
+        margin-left: 25%;
+        padding-left: 5.5%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .imgBanner {
+        margin-left: 30%;
+    }
+
+    .imgBanner2 {
+        margin-top: 170%;
+    } */ 
+
+    .portfolioSection {
+        width: auto;
+    }
+
+    img {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .img2 {
+        margin-right: 0;
+        margin-left: 7%;
+    }
+
+    .img4 {
+        margin-right: 0;
+        margin-left: 7%;   
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1135px) {
+    .portfolioSection {
+        width: auto;
+    }
+
+    img {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .img2 {
+        margin-right: 0;
+        margin-left: 7%;
+    }
+
+    .img4 {
+        margin-right: 0;
+        margin-left: 7%;   
+    }
+}
